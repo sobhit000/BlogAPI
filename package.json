@@ -1,0 +1,19 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "blog api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.12.4",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\u001b[Z\u001b[Z\u001b[Z\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
