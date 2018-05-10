@@ -5,6 +5,6 @@ deploy:
   provider: heroku
   api_key:
     secure: lomhOMsAZ0x0bPP6DNF/id+NxYd0Ai7072d0DW2VtFozUXe986iGL1w0+MzOfDukJQKS5JPPANimm61+OQQAzED3rdNFXfMl6tMDwp8LyZ08+f0xD+NbUDG/oPKGVBz9I1EPwfwJmVpGigknYCKkHIGYBexlH/Fq87VDdtkcZkAT6umOoOOwyZuMyvtBP1+TrLdCpooUsRDmTyjReFniqfOR4XLnlgB63JYO5NOn5wJvzlma7V9pcpJuXRXheS2yoTC79Cv2oDpFhpFCnsATxOjUefBm2Esvcwdmp4AHuhDzO5Wp4rGDHcajFv9WotI7x6DuUN6s+xvQdf/5TqEIwMt0cJJhbxQzA+vaowOvN/Fc+pvg4pxzUKFOffuQ4WEHxFvdcbpUhNWee6Od8+NSINf3SbKk4SrRR7VRkFRcSpS3END4TLi0/ZHJyYqHEqmSIhwOXAgObkU2aaEPXr/wjA3ztsR2HoIla9ABrQW6NQl3hS1z3spTqzPQbBcWvytyGq8XdRvYgT92dRl+hL6xOYWqJMmEYhK6ugwG2JzrcSQ5D+z2+tlZRo5gabfrDbGhZ9SR39AT/J4Z/6/L2IhZawbBLbngrEIWcNch9lrM+S93t+sWTqIS91qvwcCimOiTU2IAyqBd5MNN9O21uto9H4RzrIHQhXrn7l9dxVnWFFw=
-  app: secure-beyond-31319  
+  app: nameless-journey-64942  
   on:
     repo: sobhit000/BlogAPI
