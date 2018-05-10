@@ -9,9 +9,13 @@
     "morgan": "^1.7.0",
     "uuid": "^2.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.1.1"
+  },
   "scripts": {
-    "test": "\u001b[Z\u001b[Z\u001b[Z\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "test": "mocha --exit",
     "start": "node server.js"
   },
   "author": "",

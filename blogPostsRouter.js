@@ -7,6 +7,7 @@ const jsonParser = bodyParser.json();
 const {BlogPosts} = require('./models');
 
 BlogPosts.create('how to build servers', 'This is a tutorial about building servers', 'Sobhit', Date());
+BlogPosts.create('how to build servers2', 'This is a tutorial about building servers2', 'Sobhit2', Date());
 
 router.get('/', (req, res) => {
 	res.json(BlogPosts.get())
@@ -23,7 +24,7 @@ router.post('/', jsonParser, (req, res)=> {
     }
   }
   const item = BlogPosts.create(req.body.title, req.body.content, req.body.author, req.body.publishDate);
-  res.send(201).json(item);
+  res.status(201).json(item);
 });
 
 router.delete('/:id', (req, res) => {
